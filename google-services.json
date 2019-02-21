@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "344601852754",
+    "firebase_url": "https://pokemon-92e94.firebaseio.com",
+    "project_id": "pokemon-92e94",
+    "storage_bucket": "pokemon-92e94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344601852754:android:764d2cb7da3280eb",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344601852754-i80vkpb567t7d53eq0ooute45jbggb0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJBdqHC_hf1Ta9SF27MC0LIuv8dPkV9ho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

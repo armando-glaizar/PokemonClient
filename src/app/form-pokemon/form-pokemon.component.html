@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Pokemon</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <form (ngSubmit)="create()" *ngIf="!idPokemon">
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="pokemon.name" [ngModelOptions]="{standalone: true}" placeholder="Nombre"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="pokemon.type" [ngModelOptions]="{standalone: true}" placeholder="Tipo"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="pokemon.zone" [ngModelOptions]="{standalone: true}" placeholder="Zona"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="pokemon.generation" [ngModelOptions]="{standalone: true}" placeholder="Generación"></ion-input>
+    </ion-item>
+
+    <ion-button type="submit">Guardar</ion-button>
+  </form>
+
+  <form (ngSubmit)="update()" *ngIf="idPokemon">
+      <ion-item>
+        <ion-input type="text" [(ngModel)]="pokemon.name" [ngModelOptions]="{standalone: true}" placeholder="Nombre"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-input type="text" [(ngModel)]="pokemon.type" [ngModelOptions]="{standalone: true}" placeholder="Tipo"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-input type="text" [(ngModel)]="pokemon.zone" [ngModelOptions]="{standalone: true}" placeholder="Zona"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-input type="text" [(ngModel)]="pokemon.generation" [ngModelOptions]="{standalone: true}" placeholder="Generación"></ion-input>
+      </ion-item>
+  
+      <ion-button type="submit">Guardar</ion-button>
+    </form>
+</ion-content>

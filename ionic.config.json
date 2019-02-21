@@ -1,5 +1,7 @@
 {
   "name": "pokemon-client",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
